@@ -53,3 +53,20 @@ p {
     float: right;
     margin: 0 0 10px 10px;
 }
+
+.container {
+width: 940px;
+margin: 0px;
+}
+.menu-opcoes ul li {
+display: inline;
+margin-left: 20px;}
+
+header{
+    position: relative;
+}
+.menu-opcoes {
+position: absolute;
+bottom: 0;
+right: 0;
+}
