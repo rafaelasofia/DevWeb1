@@ -103,3 +103,94 @@ background-color: #F5DCDC;
 .mais-vendidos {
 background-color: #DCDCF5;
 }
+
+input[value] {
+color: #CC0000;
+}
+
+input[type="text"] {
+border-radius: 4px;
+}
+
+div[class|="menu"] {
+border-radius: 4px;
+}
+
+input[value~="problema"] {
+color: #CC0000;
+}
+
+input[name^="usuario"] {
+color: #99FFCC;
+}
+
+input[name$="teste"] {
+background-color: #CCFF00;
+}
+
+input[name*="tela"] {
+color: #666666;
+}
+
+.facebook {
+height: 55px;
+width: 85px;
+background-image: url(../img/facebook.png);
+text-indent: -9999px;
+}
+
+.social a[href*="facebook.com"] {
+background-image: url(../img/facebook.png);
+}
+
+footer {
+background-image: url(../img/fundo-rodape.png);
+}
+
+.social a {
+height: 32px;
+width: 32px;
+
+/* image replacement */
+display: block;
+text-indent: -9999px;
+}
+.social a[href*="facebook.com"] {
+background-image: url(../img/facebook.png);
+}
+.social a[href*="twitter.com"] {
+background-image: url(../img/twitter.png);
+}
+.social a[href*="plus.google.com"] {
+background-image: url(../img/googleplus.png);
+}
+
+footer {
+clear: both;
+}
+
+footer {
+padding: 20px 0;
+}
+footer .container {
+position: relative;
+}
+.social {
+position: absolute;
+top: 12px;
+right: 0;
+}
+
+.social li {
+float: left;
+margin-left: 25px;
+}
+
+.busca button {
+background-image: url(../img/busca.png);
+background-repeat: no-repeat;
+border: none;
+width: 20px;
+height: 20px;
+text-indent: -9999px;
+}
